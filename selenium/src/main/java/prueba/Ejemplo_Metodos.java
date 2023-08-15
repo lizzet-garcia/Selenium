@@ -9,12 +9,20 @@ public class Ejemplo_Metodos {
 		
 		int resultado2 = suma(10,10);
 		System.out.println(resultado2);
+		
+		int resultado3 = suma (10,20,30);
+		System.out.println(resultado3);
 
 	}
 	public static int suma (int a, int b) {
 		int c = a + b;
 		return c;
 		
+	}
+	
+	public static int suma (int a, int b, int c) {
+		int d = a + b + c;
+		return d;
 	}
 
 }
